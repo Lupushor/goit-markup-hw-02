@@ -1,0 +1,95 @@
+/* цвет <p> #757575 */
+/* цвет <h2-h6> #212121 */
+/* цвет logo #2196F3 и #000000 */
+/* цвет <h1> #FFFFFF*/
+/* footer: адресс #FFFFFF, телефон и почта rgba(255, 255, 255, 0.6) */
+
+:root {
+    --title-text-color: #212121;
+    --ptimary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: 'Raleway', 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+/* decor header */
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+.contact-nav .link{
+    text-decoration: none;
+    color: var(--ptimary-text-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* .site-nav .link:hover,
+.contact-nav .link:hover {
+    color: var(--accent-color);
+} */
+
+.site-nav .link:focus,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* decor Description */
+.description .title {
+    color: #ffffff;
+}
+
+.description-list .title, .what-do {
+    color: var(--title-text-color);
+}
+
+.description-list p {
+    color: var(--ptimary-text-color);
+}
+
+/* decor Team */
+.team-title{
+    color: var(--title-text-color);
+}
+
+.team .title{
+    color: var(--title-text-color);
+}
+
+.team p {
+    color: var(--ptimary-text-color);
+}
+
+/* decor Button */
+.button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+/* decor Footer */
+.footer {
+    background: #2F303A;
+}
