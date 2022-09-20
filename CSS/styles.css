@@ -14,7 +14,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
 }
 
 header {
@@ -106,9 +106,17 @@ header {
   letter-spacing: 0.03em;
 }
 
-.address a {
+.list-address a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.list-mail a, .list-phone a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.list-mail, .list-phone {
+  margin-top: 9px;
 }
 
 .logo-footer {
